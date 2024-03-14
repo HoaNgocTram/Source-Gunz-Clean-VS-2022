@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{83156ec4-85d1-4e2f-b2b2-92eb0dc54414}</UniqueIdentifier>
+      <Extensions>cpp;c;h</Extensions>
+    </Filter>
+    <Filter Include="CDDB Library">
+      <UniqueIdentifier>{4a5d591b-cb6c-4493-87a2-3cd1a6c7e4e7}</UniqueIdentifier>
+      <Extensions>cpp;h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{ff3cc5f6-a39f-483f-9b97-f9e7476dc712}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Bitmap Files">
+      <UniqueIdentifier>{941c236e-28d8-4f55-9458-f056cb844841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZUpdate">
+      <UniqueIdentifier>{958db855-3b30-474c-8683-a610586dadd9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CGLEncription.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="explorer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewAppMainDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewAppPopupDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDDB.cpp">
+      <Filter>CDDB Library</Filter>
+    </ClCompile>
+    <ClCompile Include="CDDBAniBmp.cpp">
+      <Filter>CDDB Library</Filter>
+    </ClCompile>
+    <ClCompile Include="CDDBButton.cpp">
+      <Filter>CDDB Library</Filter>
+    </ClCompile>
+    <ClCompile Include="CDDBDialog.cpp">
+      <Filter>CDDB Library</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>CDDB Library</Filter>
+    </ClCompile>
+    <ClCompile Include="ZFileTransfer.cpp">
+      <Filter>ZUpdate</Filter>
+    </ClCompile>
+    <ClCompile Include="ZUpdate.cpp">
+      <Filter>ZUpdate</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGLEncription.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="explorer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewApp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewAppMainDlg.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewAppPopupDlg.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDDB.h">
+      <Filter>CDDB Library</Filter>
+    </ClInclude>
+    <ClInclude Include="CDDBAniBmp.h">
+      <Filter>CDDB Library</Filter>
+    </ClInclude>
+    <ClInclude Include="CDDBButton.h">
+      <Filter>CDDB Library</Filter>
+    </ClInclude>
+    <ClInclude Include="CDDBDialog.h">
+      <Filter>CDDB Library</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>CDDB Library</Filter>
+    </ClInclude>
+    <ClInclude Include="ZFileTransfer.h">
+      <Filter>ZUpdate</Filter>
+    </ClInclude>
+    <ClInclude Include="ZUpdate.h">
+      <Filter>ZUpdate</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\icon_mainframe.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\anibmp_run.bmp">
+      <Filter>Resource Files\Bitmap Files</Filter>
+    </Image>
+    <Image Include="res\btnskin_normal.bmp">
+      <Filter>Resource Files\Bitmap Files</Filter>
+    </Image>
+    <Image Include="res\btnskin_start.bmp">
+      <Filter>Resource Files\Bitmap Files</Filter>
+    </Image>
+    <Image Include="res\btnskin_stop.bmp">
+      <Filter>Resource Files\Bitmap Files</Filter>
+    </Image>
+    <Image Include="res\skin_maindlg.bmp">
+      <Filter>Resource Files\Bitmap Files</Filter>
+    </Image>
+    <Image Include="res\skin_popupdlg.bmp">
+      <Filter>Resource Files\Bitmap Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NewApp.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\updater.ex_">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource.hm" />
+  </ItemGroup>
+</Project>

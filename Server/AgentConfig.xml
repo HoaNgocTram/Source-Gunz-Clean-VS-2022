@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML>
+<AGENTCONFIG>
+	<NAME>Debug Server</NAME>
+	<MAXCLIENT>1500</MAXCLIENT>
+	<ADDRESS ip="127.0.0.1" tcpport="5100" udpport="7778"/>
+	<MATCHSERVERADDRESS ip="127.0.0.1" tcpport="6000"/>
+</AGENTCONFIG>
+</XML>

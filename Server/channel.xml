@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML id="channel">
+	<DEFAULTCHANNELNAME name="Free Channel"/>
+	<DEFAULTRULENAME name="novice"/>
+
+
+	<CHANNEL name="Free Channel" maxplayers="200" rule="novice"/>
+
+	
+	<CHANNEL name="Duel Tournament" maxplayers="200" rule="dueltournament" IsDuelTournament="true"/>
+
+</XML>

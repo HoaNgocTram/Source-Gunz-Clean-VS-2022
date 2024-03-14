@@ -1,0 +1,1137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Doc">
+      <UniqueIdentifier>{8cf04dbf-5e53-40d4-8c27-3e58210396fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{cb05a7c3-d31a-4a53-8485-8ce5bf7b8d8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{6730408a-2f58-47fa-8c02-5c3d3ef70e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MUID">
+      <UniqueIdentifier>{63a032c2-37dc-4ac3-bf03-6590840cee6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{ee4c0a45-c8eb-46f0-b17a-bb801d671a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedCommand">
+      <UniqueIdentifier>{35f83c1f-6a81-4b83-beb6-dbfb73467c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Master">
+      <UniqueIdentifier>{9a923dc3-e2d4-49fc-a13e-16f321c845b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{4f5382df-1014-4058-9c78-3300e2453447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{efb6f91f-33c7-4acc-a42d-d04240411032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IOCPNet">
+      <UniqueIdentifier>{5da9d9cc-e8da-49c4-82e0-57ffef5edcf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{b52ab6c4-5183-4716-9a07-0081785e95ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer">
+      <UniqueIdentifier>{76b70ab5-ec5e-454f-b6e1-40f41342099a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Ladder">
+      <UniqueIdentifier>{c49e939d-8454-4a83-90a6-68ceea3696f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Game">
+      <UniqueIdentifier>{6e56cbf7-cb0c-43f6-ad8a-59150944e464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Game\Quest">
+      <UniqueIdentifier>{45d496b2-cbc5-47a9-91d5-6ccbe7679936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Game\Quest\Base">
+      <UniqueIdentifier>{7203bb7f-6d6b-4928-93e1-e95069ce6a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Game\GameType">
+      <UniqueIdentifier>{8227c8f5-d823-454e-998e-bc691d65041a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Game\GameType\QuestGameType">
+      <UniqueIdentifier>{a2f1eb59-7004-48fe-8fb8-35b5efdc78bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Game\Duel Tournament">
+      <UniqueIdentifier>{2a42c2be-bb22-4985-b375-0af2f85b2d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Game\Duel Tournament\GameManager">
+      <UniqueIdentifier>{6eb5ae1f-29f2-4796-8e87-ca3e0a21381f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Game\Duel Tournament\GameManager\MatchMaker">
+      <UniqueIdentifier>{80339eb4-ce1a-40dd-a62b-6a80680d2e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Game\Duel Tournament\GameManager\TimeChecker">
+      <UniqueIdentifier>{e86fbdf5-add4-4afb-9620-ec1cff48be96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Game\Duel Tournament\GameRule">
+      <UniqueIdentifier>{faa24c4e-155b-4259-961e-1c583f0ec5be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Game\Duel Tournament\GameRule\Formula">
+      <UniqueIdentifier>{f692c728-241a-42d9-9f40-2bde78a61ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Object">
+      <UniqueIdentifier>{787e710a-2c50-4399-9015-4fa7f340b624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Object\Item">
+      <UniqueIdentifier>{eda50068-a72b-4149-bbd4-77ccb9a065a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Object\Item\GambleItem">
+      <UniqueIdentifier>{2768a140-0406-461e-b89b-36edcfb9752f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Object\Item\QuestItem">
+      <UniqueIdentifier>{06b6bfc4-4be8-4c93-a1bb-9ad6aa4d561a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Object\Item\Buff">
+      <UniqueIdentifier>{9ae123c8-1869-41c5-be29-775088530300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Object\PenaltyInfo">
+      <UniqueIdentifier>{7157b3af-40e3-4055-86a6-a4b7b33f63a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Object\BattleTimeReward">
+      <UniqueIdentifier>{7c672b42-dd40-4ce2-96fe-8753feb82699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\DB">
+      <UniqueIdentifier>{6adfc116-23d7-4f31-b463-ee2c44af3a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\DB\Filter">
+      <UniqueIdentifier>{7809fb53-a77b-49b2-b20c-c701d1ac6905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Server">
+      <UniqueIdentifier>{4c2687a3-64c1-4e8e-87d1-bfade7a81a89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\MMatchServer">
+      <UniqueIdentifier>{5506dfbe-edfe-4dec-8334-c4660c544a87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\Event">
+      <UniqueIdentifier>{2e5d97c9-1bc5-45ac-acfc-0663c0ef17da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\MMatchConfig">
+      <UniqueIdentifier>{7f7db543-3bf9-4ea6-95f8-660793e85469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchServer\AsyncProxy">
+      <UniqueIdentifier>{e32ce8c5-89cb-46dc-99ec-ff464e48f4ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommandCommunicator">
+      <UniqueIdentifier>{9e2e3bc0-58da-42ec-a7fa-26c6095b826a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{689f5734-eeaa-4993-a5de-348db5685ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Locate">
+      <UniqueIdentifier>{3715dc2c-1f40-471d-baa5-b2d1bc0a656b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StringRes">
+      <UniqueIdentifier>{3b1ee640-63c6-4bca-b064-b4ae87969ad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HShield">
+      <UniqueIdentifier>{6c53254e-949f-4c86-8f86-b673f6a29710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security">
+      <UniqueIdentifier>{2ef47fff-45ea-4681-ab61-29798fc53585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security\Test">
+      <UniqueIdentifier>{659aac8b-a249-459f-9928-e9d02409b790}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Doxyfile">
+      <Filter>Doc</Filter>
+    </None>
+    <None Include="doxygen.css">
+      <Filter>Doc</Filter>
+    </None>
+    <None Include="footer.html">
+      <Filter>Doc</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\IndexPage.h">
+      <Filter>Doc</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MCommand.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MCommandBuilder.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MCommandManager.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MCommandParameter.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MCommandProfiler.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MGridMap.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MUID.h">
+      <Filter>MUID</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MObjectTypes.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MSharedCommandTable.h">
+      <Filter>SharedCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMaster.h">
+      <Filter>Master</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MChattingFilter.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MClient.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MCustomClient.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchClient.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MTCPSocket.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MServer.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RealCPNet.h">
+      <Filter>IOCPNet</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MPacket.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MPacketCrypter.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MPacketHShieldCrypter.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Msg.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MLadderGroup.h">
+      <Filter>MatchServer\Ladder</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MLadderMgr.h">
+      <Filter>MatchServer\Ladder</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MLadderPicker.h">
+      <Filter>MatchServer\Ladder</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MLadderStatistics.h">
+      <Filter>MatchServer\Ladder</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MTeamGameStrategy.h">
+      <Filter>MatchServer\Ladder</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MBaseChannelRule.h">
+      <Filter>MatchServer\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchActiveTrapMgr.h">
+      <Filter>MatchServer\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchChannelRule.h">
+      <Filter>MatchServer\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchFormula.h">
+      <Filter>MatchServer\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchMap.h">
+      <Filter>MatchServer\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchStage.h">
+      <Filter>MatchServer\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchStageSetting.h">
+      <Filter>MatchServer\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchWorldItem.h">
+      <Filter>MatchServer\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchWorldItemDesc.h">
+      <Filter>MatchServer\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchNPCObject.h">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchQuest.h">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchQuestGameLog.h">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchQuestMonsterGroup.h">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchQuestRound.h">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchSurvivalGameLog.h">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MQuestDropTable.h">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MQuestFormula.h">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MQuestItem.h">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MQuestLevel.h">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MQuestLevelGenerator.h">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MQuestNPCSpawnTrigger.h">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MQuestPlayer.h">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MSacrificeQItemTable.h">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MSurvivalRankInfo.h">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MBaseQuest.h">
+      <Filter>MatchServer\Game\Quest\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MQuestConst.h">
+      <Filter>MatchServer\Game\Quest\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MQuestMap.h">
+      <Filter>MatchServer\Game\Quest\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MQuestNPC.h">
+      <Filter>MatchServer\Game\Quest\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MQuestScenario.h">
+      <Filter>MatchServer\Game\Quest\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MSurvivalMap.h">
+      <Filter>MatchServer\Game\Quest\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MBaseGameType.h">
+      <Filter>MatchServer\Game\GameType</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchGameType.h">
+      <Filter>MatchServer\Game\GameType</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchRule.h">
+      <Filter>MatchServer\Game\GameType</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchRuleAssassinate.h">
+      <Filter>MatchServer\Game\GameType</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchRuleBerserker.h">
+      <Filter>MatchServer\Game\GameType</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchRuleDeathMatch.h">
+      <Filter>MatchServer\Game\GameType</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchRuleDuel.h">
+      <Filter>MatchServer\Game\GameType</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchRuleGladiator.h">
+      <Filter>MatchServer\Game\GameType</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchRuleTraining.h">
+      <Filter>MatchServer\Game\GameType</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchRuleBaseQuest.h">
+      <Filter>MatchServer\Game\GameType\QuestGameType</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchRuleQuest.h">
+      <Filter>MatchServer\Game\GameType\QuestGameType</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchRuleSurvival.h">
+      <Filter>MatchServer\Game\GameType\QuestGameType</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchDuelTournamentMgr.h">
+      <Filter>MatchServer\Game\Duel Tournament\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MDuelTournamentGroup.h">
+      <Filter>MatchServer\Game\Duel Tournament\GameManager\MatchMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MDuelTournamentMatchMaker.h">
+      <Filter>MatchServer\Game\Duel Tournament\GameManager\MatchMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MDuelTournamentTicket.h">
+      <Filter>MatchServer\Game\Duel Tournament\GameManager\MatchMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MDuelTournamentTicketPicker.h">
+      <Filter>MatchServer\Game\Duel Tournament\GameManager\MatchMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MDuelTournamentTimeChecker.h">
+      <Filter>MatchServer\Game\Duel Tournament\GameManager\TimeChecker</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchRuleDuelTournament.h">
+      <Filter>MatchServer\Game\Duel Tournament\GameRule</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MDuelTournamentFormula.h">
+      <Filter>MatchServer\Game\Duel Tournament\GameRule\Formula</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAgentObject.h">
+      <Filter>MatchServer\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchAntiHack.h">
+      <Filter>MatchServer\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchAuth.h">
+      <Filter>MatchServer\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchHShield.h">
+      <Filter>MatchServer\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchObjCache.h">
+      <Filter>MatchServer\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchObject.h">
+      <Filter>MatchServer\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchObjectCharBuffInfo.h">
+      <Filter>MatchServer\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MMatchObjectCommandHistory.h">
+      <Filter>MatchServer\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MBaseItem.h">
+      <Filter>MatchServer\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchItem.h">
+      <Filter>MatchServer\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchItemFunction.h">
+      <Filter>MatchServer\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchBaseGambleItem.h">
+      <Filter>MatchServer\Object\Item\GambleItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchDBBaseGambleItem.h">
+      <Filter>MatchServer\Object\Item\GambleItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchDBGambleItem.h">
+      <Filter>MatchServer\Object\Item\GambleItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchGambleItem.h">
+      <Filter>MatchServer\Object\Item\GambleItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchGambleMachine.h">
+      <Filter>MatchServer\Object\Item\GambleItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchBuff.h">
+      <Filter>MatchServer\Object\Item\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchBuffSummary.h">
+      <Filter>MatchServer\Object\Item\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchAccountPenaltyInfo.h">
+      <Filter>MatchServer\Object\PenaltyInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchBRMachine.h">
+      <Filter>MatchServer\Object\BattleTimeReward</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchCharBRInfo.h">
+      <Filter>MatchServer\Object\BattleTimeReward</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchDBMgr.h">
+      <Filter>MatchServer\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchDBFilter.h">
+      <Filter>MatchServer\DB\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchAdmin.h">
+      <Filter>MatchServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchChannel.h">
+      <Filter>MatchServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchChatRoom.h">
+      <Filter>MatchServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchCheckLoopTime.h">
+      <Filter>MatchServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchClan.h">
+      <Filter>MatchServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchFriendInfo.h">
+      <Filter>MatchServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchGlobal.h">
+      <Filter>MatchServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchNotify.h">
+      <Filter>MatchServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchPremiumIPCache.h">
+      <Filter>MatchServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchSchedule.h">
+      <Filter>MatchServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchShop.h">
+      <Filter>MatchServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchShutdown.h">
+      <Filter>MatchServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchStatus.h">
+      <Filter>MatchServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchTransDataType.h">
+      <Filter>MatchServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchTypes.h">
+      <Filter>MatchServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchUtil.h">
+      <Filter>MatchServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MSmartRefreshImpl.h">
+      <Filter>MatchServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MVoteDiscussImpl.h">
+      <Filter>MatchServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MVoteMgr.h">
+      <Filter>MatchServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchServer.h">
+      <Filter>MatchServer\MMatchServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchEvent.h">
+      <Filter>MatchServer\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchEventFactory.h">
+      <Filter>MatchServer\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchEventManager.h">
+      <Filter>MatchServer\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchConfig.h">
+      <Filter>MatchServer\MMatchConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="MMatchKillTrackerConfig.h">
+      <Filter>MatchServer\MMatchConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncDBJob.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncDBJob_BuyQuestItem.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncDBJob_CharFinalize.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncDBJob_CountryFilter.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncDBJob_DuelTournament.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncDBJob_Event.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncDBJob_FriendList.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="MAsyncDBJob_GetAccountItemList.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncDBJob_GetBRDescription.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncDBJob_GetLoginInfo.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncDBJob_InsertCharBRInfo.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncDBJob_InsertConnLog.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncDBJob_InsertGamePlayerLog.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncDBJob_RewardCharBR.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncDBJob_SurvivalMode.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncDBJob_UpdateAccountLastLoginTime.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncDBJob_UpdateCharBRInfo.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncDBJob_UpdateCharInfoData.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncDBJob_UpdateCharItemInfoData.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncDBJob_UpdateClanGrade.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncDBJob_WinTheClanGame.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MAsyncProxy.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="MMatchPowerLevelingConfig.h">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MCommandCommunicator.h">
+      <Filter>CommandCommunicator</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MXmlParser.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MBaseLocale.h">
+      <Filter>Locate</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MLocaleDefine.h">
+      <Filter>Locate</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchLocale.h">
+      <Filter>Locate</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MNJ_DBAgentClient.h">
+      <Filter>Locate</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MBaseStringResManager.h">
+      <Filter>StringRes</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MErrorTable.h">
+      <Filter>StringRes</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchStringResManager.h">
+      <Filter>StringRes</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MStringRes.h">
+      <Filter>StringRes</Filter>
+    </ClInclude>
+    <ClInclude Include="HShield\HsCryptLib.h">
+      <Filter>HShield</Filter>
+    </ClInclude>
+    <ClInclude Include="MConnectHistory.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MHackingCharList.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MHackingTypes.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatchCRC32XORCache.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TestCRC32XORCache.h">
+      <Filter>Security\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="MFeatureDefine.h" />
+    <ClInclude Include="Include\MMatchDebug.h" />
+    <ClInclude Include="Include\stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\MCommand.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MCommandBuilder.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MCommandManager.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MCommandParameter.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MCommandProfiler.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MGridMap.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MUID.cpp">
+      <Filter>MUID</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MSharedCommandTable.cpp">
+      <Filter>SharedCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMaster.cpp">
+      <Filter>Master</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MChattingFilter.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MClient.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MCustomClient.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchClient.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MTCPSocket.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MServer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RealCPNet.cpp">
+      <Filter>IOCPNet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MPacket.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MPacketCrypter.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MPacketHShieldCrypter.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MLadderMgr.cpp">
+      <Filter>MatchServer\Ladder</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MLadderPicker.cpp">
+      <Filter>MatchServer\Ladder</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MLadderStatistics.cpp">
+      <Filter>MatchServer\Ladder</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MTeamGameStrategy.cpp">
+      <Filter>MatchServer\Ladder</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MBaseChannelRule.cpp">
+      <Filter>MatchServer\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchActiveTrapMgr.cpp">
+      <Filter>MatchServer\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchChannelRule.cpp">
+      <Filter>MatchServer\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchFormula.cpp">
+      <Filter>MatchServer\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchMap.cpp">
+      <Filter>MatchServer\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchStage.cpp">
+      <Filter>MatchServer\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchStageSetting.cpp">
+      <Filter>MatchServer\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchWorldItem.cpp">
+      <Filter>MatchServer\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchWorldItemDesc.cpp">
+      <Filter>MatchServer\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchNPCObject.cpp">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchQuest.cpp">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchQuestGameLog.cpp">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchQuestMonsterGroup.cpp">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchQuestRound.cpp">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchSurvivalGameLog.cpp">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MQuestDropTable.cpp">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MQuestFormula.cpp">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MQuestItem.cpp">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MQuestLevel.cpp">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MQuestLevelGenerator.cpp">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MQuestNPCSpawnTrigger.cpp">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MQuestPlayer.cpp">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MSacrificeQItemTable.cpp">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MSurvivalRankInfo.cpp">
+      <Filter>MatchServer\Game\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MBaseQuest.cpp">
+      <Filter>MatchServer\Game\Quest\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MQuestMap.cpp">
+      <Filter>MatchServer\Game\Quest\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MQuestNPC.cpp">
+      <Filter>MatchServer\Game\Quest\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MQuestScenario.cpp">
+      <Filter>MatchServer\Game\Quest\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MSurvivalMap.cpp">
+      <Filter>MatchServer\Game\Quest\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MBaseGameType.cpp">
+      <Filter>MatchServer\Game\GameType</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchGameType.cpp">
+      <Filter>MatchServer\Game\GameType</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchRule.cpp">
+      <Filter>MatchServer\Game\GameType</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchRuleAssassinate.cpp">
+      <Filter>MatchServer\Game\GameType</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchRuleBerserker.cpp">
+      <Filter>MatchServer\Game\GameType</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchRuleDeathMatch.cpp">
+      <Filter>MatchServer\Game\GameType</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchRuleDuel.cpp">
+      <Filter>MatchServer\Game\GameType</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchRuleGladiator.cpp">
+      <Filter>MatchServer\Game\GameType</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchRuleTraining.cpp">
+      <Filter>MatchServer\Game\GameType</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchRuleBaseQuest.cpp">
+      <Filter>MatchServer\Game\GameType\QuestGameType</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchRuleQuest.cpp">
+      <Filter>MatchServer\Game\GameType\QuestGameType</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchRuleSurvival.cpp">
+      <Filter>MatchServer\Game\GameType\QuestGameType</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchDuelTournamentMgr.cpp">
+      <Filter>MatchServer\Game\Duel Tournament\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MDuelTournamentMatchMaker.cpp">
+      <Filter>MatchServer\Game\Duel Tournament\GameManager\MatchMaker</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MDuelTournamentTicketPicker.cpp">
+      <Filter>MatchServer\Game\Duel Tournament\GameManager\MatchMaker</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MDuelTournamentTimeChecker.cpp">
+      <Filter>MatchServer\Game\Duel Tournament\GameManager\TimeChecker</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchRuleDuelTournament.cpp">
+      <Filter>MatchServer\Game\Duel Tournament\GameRule</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MDuelTournamentFormula.cpp">
+      <Filter>MatchServer\Game\Duel Tournament\GameRule\Formula</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAgentObject.cpp">
+      <Filter>MatchServer\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchAntiHack.cpp">
+      <Filter>MatchServer\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchHShield.cpp">
+      <Filter>MatchServer\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchObjCache.cpp">
+      <Filter>MatchServer\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchObject.cpp">
+      <Filter>MatchServer\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchObjectCharBuffInfo.cpp">
+      <Filter>MatchServer\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MMatchObjectCommandHistory.cpp">
+      <Filter>MatchServer\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchItem.cpp">
+      <Filter>MatchServer\Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchItemFunction.cpp">
+      <Filter>MatchServer\Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchDBGambleItem.cpp">
+      <Filter>MatchServer\Object\Item\GambleItem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchGambleItem.cpp">
+      <Filter>MatchServer\Object\Item\GambleItem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchGambleMachine.cpp">
+      <Filter>MatchServer\Object\Item\GambleItem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchBuff.cpp">
+      <Filter>MatchServer\Object\Item\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchBuffSummary.cpp">
+      <Filter>MatchServer\Object\Item\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchAccountPenaltyInfo.cpp">
+      <Filter>MatchServer\Object\PenaltyInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchBRMachine.cpp">
+      <Filter>MatchServer\Object\BattleTimeReward</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchCharBRInfo.cpp">
+      <Filter>MatchServer\Object\BattleTimeReward</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchDBMgr.cpp">
+      <Filter>MatchServer\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchDBMgr_AccountItem.cpp">
+      <Filter>MatchServer\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchDBFilter.cpp">
+      <Filter>MatchServer\DB\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchAdmin.cpp">
+      <Filter>MatchServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchChannel.cpp">
+      <Filter>MatchServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchChatRoom.cpp">
+      <Filter>MatchServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchCheckLoopTime.cpp">
+      <Filter>MatchServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchClan.cpp">
+      <Filter>MatchServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchFriendInfo.cpp">
+      <Filter>MatchServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchGlobal.cpp">
+      <Filter>MatchServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchNotify.cpp">
+      <Filter>MatchServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchPremiumIPCache.cpp">
+      <Filter>MatchServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchSchedule.cpp">
+      <Filter>MatchServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchShop.cpp">
+      <Filter>MatchServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchShutdown.cpp">
+      <Filter>MatchServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchStatus.cpp">
+      <Filter>MatchServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchTransDataType.cpp">
+      <Filter>MatchServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchUtil.cpp">
+      <Filter>MatchServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MSmartRefreshImpl.cpp">
+      <Filter>MatchServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MVoteDiscussImpl.cpp">
+      <Filter>MatchServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MVoteMgr.cpp">
+      <Filter>MatchServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchServer.cpp">
+      <Filter>MatchServer\MMatchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchServer_Admin.cpp">
+      <Filter>MatchServer\MMatchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchServer_Agent.cpp">
+      <Filter>MatchServer\MMatchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="MMatchServer_AntiHack.cpp">
+      <Filter>MatchServer\MMatchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchServer_Async.cpp">
+      <Filter>MatchServer\MMatchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchServer_Channel.cpp">
+      <Filter>MatchServer\MMatchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchServer_Char.cpp">
+      <Filter>MatchServer\MMatchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchServer_Clan.cpp">
+      <Filter>MatchServer\MMatchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchServer_DuelTournament.cpp">
+      <Filter>MatchServer\MMatchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchServer_Item.cpp">
+      <Filter>MatchServer\MMatchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchServer_Ladder.cpp">
+      <Filter>MatchServer\MMatchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchServer_Login.cpp">
+      <Filter>MatchServer\MMatchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchServer_OnCommand.cpp">
+      <Filter>MatchServer\MMatchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchServer_Quest.cpp">
+      <Filter>MatchServer\MMatchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchServer_Stage.cpp">
+      <Filter>MatchServer\MMatchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="MMatchServer_Survival.cpp">
+      <Filter>MatchServer\MMatchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchEvent.cpp">
+      <Filter>MatchServer\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="MMatchEventFactory.cpp">
+      <Filter>MatchServer\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchEventManager.cpp">
+      <Filter>MatchServer\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchConfig.cpp">
+      <Filter>MatchServer\MMatchConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAsyncDBJob.cpp">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAsyncDBJob_BuyQuestItem.cpp">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAsyncDBJob_CharFinalize.cpp">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAsyncDBJob_CountryFilter.cpp">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAsyncDBJob_DuelTournament.cpp">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAsyncDBJob_Event.cpp">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAsyncDBJob_FriendList.cpp">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="MAsyncDBJob_GetAccountItemList.cpp">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAsyncDBJob_GetBRDescription.cpp">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAsyncDBJob_GetLoginInfo.cpp">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAsyncDBJob_InsertCharBRInfo.cpp">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAsyncDBJob_InsertConnLog.cpp">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAsyncDBJob_InsertGamePlayerLog.cpp">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAsyncDBJob_RewardCharBR.cpp">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAsyncDBJob_SurvivalMode.cpp">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAsyncDBJob_UpdateCharBRInfo.cpp">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAsyncDBJob_UpdateCharInfoData.cpp">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAsyncDBJob_UpdateCharItemInfoData.cpp">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAsyncDBJob_WinTheClanGame.cpp">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAsyncProxy.cpp">
+      <Filter>MatchServer\AsyncProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MCommandCommunicator.cpp">
+      <Filter>CommandCommunicator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MXmlParser.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MBaseLocale.cpp">
+      <Filter>Locate</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchLocale.cpp">
+      <Filter>Locate</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MNJ_DBAgentClient.cpp">
+      <Filter>Locate</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MBaseStringResManager.cpp">
+      <Filter>StringRes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchStringResManager.cpp">
+      <Filter>StringRes</Filter>
+    </ClCompile>
+    <ClCompile Include="MConnectHistory.cpp">
+      <Filter>Security</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MHackingTypes.cpp">
+      <Filter>Security</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TestCRC32XORCache.cpp">
+      <Filter>Security\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MMatchDebug.cpp" />
+    <ClCompile Include="Source\stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="HShield\HsCryptLib.lib">
+      <Filter>HShield</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

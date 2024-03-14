@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MCountryFilterDBMgr">
+      <UniqueIdentifier>{ee592a05-2bde-4e28-b836-cbb30047a269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MCountryFilter">
+      <UniqueIdentifier>{3f6f33ef-a713-40de-aec6-b1374f829dc0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\MCountryFilterDBMgr.cpp">
+      <Filter>MCountryFilterDBMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MCountryFilter.cpp">
+      <Filter>MCountryFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\MCountryFilterDBMgr.h">
+      <Filter>MCountryFilterDBMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MCountryFilter.h">
+      <Filter>MCountryFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+</Project>

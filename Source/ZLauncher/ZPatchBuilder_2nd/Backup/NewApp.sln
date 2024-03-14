@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NewApp", "CNewApp\NewApp.vcproj", "{9397EEB3-59FC-49FD-B050-AF9173275368}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8D451493-65C2-49C3-ADAE-ACB17E6B0650} = {8D451493-65C2-49C3-ADAE-ACB17E6B0650}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cml", "..\..\cml\cml.vcproj", "{8D451493-65C2-49C3-ADAE-ACB17E6B0650}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{9397EEB3-59FC-49FD-B050-AF9173275368}.Debug.ActiveCfg = Debug|Win32
+		{9397EEB3-59FC-49FD-B050-AF9173275368}.Debug.Build.0 = Debug|Win32
+		{9397EEB3-59FC-49FD-B050-AF9173275368}.Release.ActiveCfg = Release|Win32
+		{9397EEB3-59FC-49FD-B050-AF9173275368}.Release.Build.0 = Release|Win32
+		{8D451493-65C2-49C3-ADAE-ACB17E6B0650}.Debug.ActiveCfg = Debug|Win32
+		{8D451493-65C2-49C3-ADAE-ACB17E6B0650}.Debug.Build.0 = Debug|Win32
+		{8D451493-65C2-49C3-ADAE-ACB17E6B0650}.Release.ActiveCfg = Release|Win32
+		{8D451493-65C2-49C3-ADAE-ACB17E6B0650}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

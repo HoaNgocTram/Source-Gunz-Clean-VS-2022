@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" ?>
+<XML>
+	<XMLHEADER>version="1.0"</XMLHEADER>
+
+	<SKIN>Default</SKIN>
+
+	<DEFFONT>Arial</DEFFONT>
+
+	<IME>false</IME>
+
+	<BAREPORT>
+		<ADDR>www.battlearena.com</ADDR>
+		<DIR>incoming/gunz_US</DIR>
+	</BAREPORT>
+
+	<EMBLEM_URL>http://127.0.0.1/gunz/emblems</EMBLEM_URL>
+	<TEMBLEM_URL>http://127.0.0.1/gunz/emblems</TEMBLEM_URL>
+
+	<CASHSHOP_URL>http://127.0.0.1</CASHSHOP_URL>
+
+	<HOMEPAGE>
+	    <URL>http://127.0.0.1</URL>
+	    <TITLE>GunZ the Dual</TITLE>
+	</HOMEPAGE>
+
+	<LOCATORLIST>
+		<LOCATOR id="1" IP="127.0.0.1" />
+		<LOCATOR id="2" IP="127.0.0.1" />
+	</LOCATORLIST>
+
+	<TLOCATORLIST>
+		<LOCATOR id="1" IP="127.0.0.1" />
+	</TLOCATORLIST>
+</XML>
