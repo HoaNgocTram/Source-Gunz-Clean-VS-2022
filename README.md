@@ -1,9 +1,10 @@
 VS 2022 build KOR_Release_publish<br>
 <br>
 Database : https://github.com/WhyWolfie/GunZ-The-Duel/blob/master/database/1.5/GunZDBFixed.zip<br>
+<br>
 Source by Gregor<br>
 Repacked by Jur13n<br>
-Compiled by Jur13n<br>
+Compiled by Desperate<br>
 <br>
 Mods: (the Blue ones are Links to the page)<br>
 Capture The Flag - Added<br>
