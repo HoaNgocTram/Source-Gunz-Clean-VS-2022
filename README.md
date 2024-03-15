@@ -3,7 +3,7 @@ VS 2022 build KOR_Release_publish<br>
 Database : https://github.com/WhyWolfie/GunZ-The-Duel/blob/master/database/1.5/GunZDBFixed.zip<br>
 <br>
 Source by Gregor<br>
-Repacked by Jur13n<br>
+Repacked by Jur13n (Jur13n #2)<br>
 Compiled by Desperate<br>
 <br>
 Mods: (the Blue ones are Links to the page)<br>
